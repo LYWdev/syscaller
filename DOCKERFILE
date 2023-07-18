@@ -1,0 +1,9 @@
+FROM ubuntu:20.04
+LABEL maintainer="LYWdev"
+RUN apt update && apt upgrade -y && apt install -y vim ssh git net-tools
+CMD apt update && apt upgrade -y && apt install -y vim ssh git net-tools
+WORKDIR /usr/local/dev
+COPY /root/syscaller /home/user/local
+#expose port
+EXPOSE 80
+EXPOSE 443
