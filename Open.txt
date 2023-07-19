@@ -1,0 +1,36 @@
+Open((null)="/tmp/open_test.txt", (null)=, (null)=666) = -1 (No such file or directory)
+Open((null)="/tmp/open_test.txt", (null)=, (null)=666) = -1 (No such file or directory)
+Open((null)="/tmp/open_test.txt", (null)=, (null)=666) = -1 (No such file or directory)
+Open((null)="/tmp/open_test.txt", (null)=, (null)=666) = -1 (No such file or directory)
+Open((null)="/tmp/open_test.txt", (null)=, (null)=666) = -1 (No such file or directory)
+Open((null)="/tmp/open_test.txt", (null)=, (null)=666) = -1 (No such file or directory)
+Open((null)="/tmp/open_test.txt", (null)=, (null)=666) = -1 (No such file or directory)
+Open((null)="/tmp/open_test.txt", (null)=, (null)=666) = -1 (No such file or directory)
+Open((null)="/tmp/open_test.txt", (null)=, (null)=666) = -1 (No such file or directory)
+Open((null)="/tmp/open_test.txt", (null)=, (null)=666) = -1 (No such file or directory)
+Open((null)="/tmp/open_test.txt", (null)=, (null)=666) = -1 (No such file or directory)
+Open((null)="/tmp/open_test.txt", (null)=, (null)=666) = -1 (No such file or directory)
+Open((null)="/tmp/open_test.txt", (null)=, (null)=666) = -1 (No such file or directory)
+Open((null)="/tmp/open_test.txt", (null)=, (null)=666) = -1 (No such file or directory)
+Open((null)="/tmp/open_test.txt", (null)=, (null)=666) = -1 (No such file or directory)
+Open((null)="/tmp/open_test.txt", (null)=, (null)=666) = -1 (No such file or directory)
+Open((null)="/tmp/open_test.txt", (null)=, (null)=666) = -1 (No such file or directory)
+Open((null)="/tmp/open_test.txt", (null)=, (null)=666) = -1 (No such file or directory)
+Open((null)="/tmp/open_test.txt", (null)=, (null)=666) = -1 (No such file or directory)
+Open((null)="/tmp/open_test.txt", (null)=, (null)=666) = -1 (No such file or directory)
+Open((null)="/tmp/open_test.txt", (null)=O_CREAT, (null)=666) = 4
+Open((null)="/tmp/open_test.txt", (null)=O_RDONLY, (null)=666) = 4
+Open((null)="/tmp/open_test.txt", (null)=O_WRONLY, (null)=666) = 4
+Open((null)="/tmp/open_test.txt", (null)=O_RDWR, (null)=666) = 4
+Open((null)="/tmp/open_test.txt", (null)=O_CREAT, (null)=666) = 4
+Open((null)="/tmp/open_test.txt", (null)=O_RDONLY, (null)=666) = 4
+Open((null)="/tmp/open_test.txt", (null)=O_WRONLY, (null)=666) = 4
+Open((null)="/tmp/open_test.txt", (null)=O_RDWR, (null)=666) = 4
+Open(const char *filename="/tmp/open_test.txt", (null)=O_CREAT, (null)=666) = 4
+Open(const char *filename="/tmp/open_test.txt", (null)=O_RDONLY, (null)=666) = 4
+Open(const char *filename="/tmp/open_test.txt", (null)=O_WRONLY, (null)=666) = 4
+Open(const char *filename="/tmp/open_test.txt", (null)=O_RDWR, (null)=666) = 4
+Open(const char *filename="/tmp/open_test.txt", (null)=O_CREAT, (null)=666) = 4
+Open(const char *filename="/tmp/open_test.txt", (null)=O_RDONLY, (null)=666) = 4
+Open(const char *filename="/tmp/open_test.txt", (null)=O_WRONLY, (null)=666) = 4
+Open(const char *filename="/tmp/open_test.txt", (null)=O_RDWR, (null)=666) = 4

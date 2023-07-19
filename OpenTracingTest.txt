@@ -7,3 +7,111 @@
            <...>-49458   [002] .....  7015.387216: tracing_mark_write: Open(const char *filename="./open_test.txt", int flags=0x0, umode_t mode=666) = 4
            <...>-49458   [002] .....  7015.435200: tracing_mark_write: Open(const char *filename="./open_test.txt", int flags=0x1, umode_t mode=666) = 4
            <...>-49458   [002] .....  7015.435217: tracing_mark_write: Open(const char *filename="./open_test.txt", int flags=0x1, umode_t mode=666) = 4
+           <...>-61468   [001] ..... 28261.577476: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) start
+           <...>-61468   [001] ..... 28261.577596: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61468   [001] ..... 28261.577596: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61468   [001] ..... 28261.630454: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) start
+           <...>-61468   [001] ..... 28261.630471: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61468   [001] ..... 28261.630471: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61468   [001] ..... 28261.677989: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) start
+           <...>-61468   [001] ..... 28261.678181: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61468   [001] ..... 28261.678181: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61468   [001] ..... 28261.741233: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) start
+           <...>-61468   [001] ..... 28261.741243: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61468   [001] ..... 28261.741243: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61468   [001] ..... 28261.793760: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) start
+           <...>-61468   [001] ..... 28261.793842: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61468   [001] ..... 28261.793842: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61468   [001] .N... 28261.845564: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) start
+           <...>-61468   [001] ..... 28261.845645: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61468   [001] ..... 28261.845645: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61468   [003] ..... 28261.901203: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) start
+           <...>-61468   [003] ..... 28261.901241: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61468   [003] ..... 28261.901241: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61468   [003] ..... 28261.957262: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) start
+           <...>-61468   [003] ..... 28261.957280: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61468   [003] ..... 28261.957280: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61468   [003] ..... 28262.021776: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) start
+           <...>-61468   [003] ..... 28262.021839: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61468   [003] ..... 28262.021839: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61468   [003] ..... 28262.073388: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) start
+           <...>-61468   [003] ..... 28262.073446: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61468   [003] ..... 28262.073446: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61834   [000] ..... 28405.600863: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) start
+           <...>-61834   [000] ..... 28405.600902: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61834   [000] ..... 28405.600902: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61834   [000] ..... 28405.652054: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) start
+           <...>-61834   [000] ..... 28405.652069: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61834   [000] ..... 28405.652069: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61834   [000] ..... 28405.708035: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) start
+           <...>-61834   [000] ..... 28405.708050: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61834   [000] ..... 28405.708050: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61834   [001] ..... 28405.756437: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) start
+           <...>-61834   [001] ..... 28405.756452: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61834   [001] ..... 28405.756452: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61834   [001] ..... 28405.796892: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) start
+           <...>-61834   [001] ..... 28405.796913: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61834   [001] ..... 28405.796913: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61834   [001] ..... 28405.849279: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) start
+           <...>-61834   [001] ..... 28405.849296: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61834   [001] ..... 28405.849296: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61834   [001] ..... 28405.904042: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) start
+           <...>-61834   [001] ..... 28405.904065: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61834   [001] ..... 28405.904065: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61834   [001] ..... 28405.955978: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) start
+           <...>-61834   [001] ..... 28405.956064: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61834   [001] ..... 28405.956064: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61834   [001] ..... 28406.003771: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) start
+           <...>-61834   [001] ..... 28406.003780: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61834   [001] ..... 28406.003780: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61834   [000] ..... 28406.051590: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) start
+           <...>-61834   [000] ..... 28406.051600: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-61834   [000] ..... 28406.051600: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=, (null)=666) end
+           <...>-62315   [000] ..... 28854.847743: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_CREAT, (null)=666) start
+           <...>-62315   [000] ..... 28854.847834: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_CREAT, (null)=666) end
+           <...>-62315   [000] ..... 28854.847834: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_CREAT, (null)=666) end
+           <...>-62315   [000] ..... 28854.894957: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_RDONLY, (null)=666) start
+           <...>-62315   [000] ..... 28854.894985: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_RDONLY, (null)=666) end
+           <...>-62315   [000] ..... 28854.894985: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_RDONLY, (null)=666) end
+           <...>-62315   [000] ..... 28854.942995: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_WRONLY, (null)=666) start
+           <...>-62315   [000] ..... 28854.943077: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_WRONLY, (null)=666) end
+           <...>-62315   [000] ..... 28854.943077: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_WRONLY, (null)=666) end
+           <...>-62315   [001] ..... 28854.996948: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_RDWR, (null)=666) start
+           <...>-62315   [001] ..... 28854.996973: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_RDWR, (null)=666) end
+           <...>-62315   [001] ..... 28854.996973: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_RDWR, (null)=666) end
+           <...>-63255   [000] ..... 29334.139142: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_CREAT, (null)=666) start
+           <...>-63255   [000] ..... 29334.139160: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_CREAT, (null)=666) end
+           <...>-63255   [000] ..... 29334.139160: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_CREAT, (null)=666) end
+           <...>-63255   [000] ..... 29334.206233: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_RDONLY, (null)=666) start
+           <...>-63255   [000] ..... 29334.206248: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_RDONLY, (null)=666) end
+           <...>-63255   [000] ..... 29334.206248: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_RDONLY, (null)=666) end
+           <...>-63255   [000] ..... 29334.258925: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_WRONLY, (null)=666) start
+           <...>-63255   [000] ..... 29334.258949: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_WRONLY, (null)=666) end
+           <...>-63255   [000] ..... 29334.258949: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_WRONLY, (null)=666) end
+           <...>-63255   [000] ..... 29334.306591: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_RDWR, (null)=666) start
+           <...>-63255   [000] ..... 29334.306608: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_RDWR, (null)=666) end
+           <...>-63255   [000] ..... 29334.306608: tracing_mark_write: Open((null)="/tmp/open_test.txt", (null)=O_RDWR, (null)=666) end
+           <...>-63344   [003] ..... 29610.994793: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_CREAT, (null)=666) start
+           <...>-63344   [003] ..... 29610.994825: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_CREAT, (null)=666) end
+           <...>-63344   [003] ..... 29610.994825: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_CREAT, (null)=666) end
+           <...>-63344   [002] ..... 29611.043511: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_RDONLY, (null)=666) start
+           <...>-63344   [002] ..... 29611.043570: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_RDONLY, (null)=666) end
+           <...>-63344   [002] ..... 29611.043570: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_RDONLY, (null)=666) end
+           <...>-63344   [002] ..... 29611.115931: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_WRONLY, (null)=666) start
+           <...>-63344   [002] ..... 29611.115960: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_WRONLY, (null)=666) end
+           <...>-63344   [002] ..... 29611.115960: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_WRONLY, (null)=666) end
+           <...>-63344   [002] ..... 29611.163949: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_RDWR, (null)=666) start
+           <...>-63344   [002] ..... 29611.163968: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_RDWR, (null)=666) end
+           <...>-63344   [002] ..... 29611.163968: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_RDWR, (null)=666) end
+           <...>-63346   [001] ..... 29618.782744: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_CREAT, (null)=666) start
+           <...>-63346   [001] ..... 29618.782760: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_CREAT, (null)=666) end
+           <...>-63346   [001] ..... 29618.782760: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_CREAT, (null)=666) end
+           <...>-63346   [001] ..... 29618.827774: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_RDONLY, (null)=666) start
+           <...>-63346   [001] ..... 29618.827796: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_RDONLY, (null)=666) end
+           <...>-63346   [001] ..... 29618.827796: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_RDONLY, (null)=666) end
+           <...>-63346   [001] ..... 29618.875836: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_WRONLY, (null)=666) start
+           <...>-63346   [001] ..... 29618.875859: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_WRONLY, (null)=666) end
+           <...>-63346   [001] ..... 29618.875859: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_WRONLY, (null)=666) end
+           <...>-63346   [001] ..... 29618.923649: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_RDWR, (null)=666) start
+           <...>-63346   [001] ..... 29618.923663: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_RDWR, (null)=666) end
+           <...>-63346   [001] ..... 29618.923663: tracing_mark_write: Open(const char *filename="/tmp/open_test.txt", (null)=O_RDWR, (null)=666) end
