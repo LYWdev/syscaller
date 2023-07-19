@@ -5,13 +5,13 @@
 #define TRACING_TRACE "/data/shared/trace"                                     // trace path
 #define TRACING_MARKER "/data/shared/trace_marker"                             // trace_marker path
 #define TRACING_RESULT_FILE_PATH "/program/OpenTracingTest.txt" // trace log output path
-#define FUNCTION_RESULT_FILE_PATH "/program/Open.txt"       // container log output path
-#define KATA_FD_PATH "/tmp/test.txt"                                           // 카타컨테이너를 위한 fsync용 파일 경로
+#define FUNCTION_RESULT_FILE_PATH "/program/OpenTest.txt"       // container log output path
+#define KATA_FD_PATH "/"                                                       // 카타컨테이너를 위한 fsync용 파일 경로
 #define CONTAINER_TYPE 0                                                       // 0: 도커, 1: gVisor, 2: kata
 #define PARAMETER_NUMBER 3                                                     // parameter 개수를 넣어주시오
 #define SYSCALL_NAME "Open"                                                    // syscall이름을 적어주세요.
 #define ARG1_TYPE ARG_PATHNAME                                                 // argument 타입을 argtype에서 복사 붙이기로 붙여주세요.
-#define ARG2_TYPE ARG_LIST                                                     // OP와 LIST는 FLAG
+#define ARG2_TYPE ARG_LIST
 #define ARG3_TYPE ARG_MODE_T
 #define ARG4_TYPE ARG_UNDEFINED
 #define ARG5_TYPE ARG_UNDEFINED
@@ -26,13 +26,13 @@
 
 //고쳐야하는 부분-2
 char *parameterName[] = {
-    "const char *filename"};
+    "const char *filename", "int flags", "umode_t mode"};
 int parameterNameCount;
 
 char syscallName[100];
 
 // 테스트하는 애의 플래그
-
+//  필수 플래그
 unsigned long o_flags_base[] = {
      O_CREAT, O_RDONLY, O_WRONLY, O_RDWR};   //,
 char *o_flags_base_char[] = {
@@ -41,11 +41,12 @@ int flagBaseSize;
 int o_flags_base_index;
 unsigned long *o_flags_base_set;
 unsigned int o_flags_base_set_size;
-// 선택 플래그
+
 unsigned long o_flags[] = {
     O_APPEND, O_ASYNC, O_CLOEXEC, O_DIRECT, O_DIRECTORY, O_DSYNC, O_EXCL, O_NOATIME, O_NOCTTY, O_NOFOLLOW, O_NONBLOCK, O_NDELAY, O_PATH, O_SYNC, O_TMPFILE, O_TMPFILE, O_TRUNC};
 char *o_flags_char[] = {
     "O_APPEND", "O_ASYNC", "O_CLOEXEC", "O_DIRECT", "O_DIRECTORY", "O_DSYNC", "O_EXCL", "O_NOATIME", "O_NOCTTY", "O_NOFOLLOW", "O_NONBLOCK", "O_NDELAY", "O_PATH", "O_SYNC", "O_TMPFILE", "O_TMPFILE", "O_TRUNC"};
+
 
 
 // 선행조건1 플래그
@@ -90,7 +91,6 @@ char *o_flags3_char[] = {
     };
 
 //고쳐야하는 부분-2 끝
-
 int prepareTest(syscallInfo *rec, int *next)
 {
     /* 작성 부분 rec의 a1, a2, a3, a4, a5, a6를 전부 채워야함
@@ -107,14 +107,13 @@ int prepareTest(syscallInfo *rec, int *next)
     {
         return 1;
     }
-
-    char *fname = (char *)malloc(sizeof(char) * (strlen("/tmp/open_test.txt") + 1));
+    char *fname = (char *)malloc(sizeof(char) * (strlen("/program/open_test.txt") + 1));
     rec->a1 = fname;
-    strcpy(fname,"/tmp/open_test.txt");
+    strcpy(fname,"/program/open_test.txt");
     rec->a3 = 0666;
     /************************이까지 작성**********************/
     //고쳐야하는 부분-3 끝
-    makeLogBuffer(rec, 1);
+    makeLogBuffer(rec,1);
     return 0;
 }
 
