@@ -1,0 +1,9 @@
+           <...>-49458   [002] .....  7015.283487: tracing_mark_write: start
+           <...>-49458   [002] .....  7015.283541: tracing_mark_write: end
+           <...>-49458   [002] .....  7015.283541: tracing_mark_write: end
+           <...>-49458   [002] .....  7015.339920: tracing_mark_write: Open(const char *filename="./open_test.txt", int flags=0x40, umode_t mode=666) = 4
+           <...>-49458   [002] .....  7015.340005: tracing_mark_write: Open(const char *filename="./open_test.txt", int flags=0x40, umode_t mode=666) = 4
+           <...>-49458   [002] .....  7015.387198: tracing_mark_write: Open(const char *filename="./open_test.txt", int flags=0x0, umode_t mode=666) = 4
+           <...>-49458   [002] .....  7015.387216: tracing_mark_write: Open(const char *filename="./open_test.txt", int flags=0x0, umode_t mode=666) = 4
+           <...>-49458   [002] .....  7015.435200: tracing_mark_write: Open(const char *filename="./open_test.txt", int flags=0x1, umode_t mode=666) = 4
+           <...>-49458   [002] .....  7015.435217: tracing_mark_write: Open(const char *filename="./open_test.txt", int flags=0x1, umode_t mode=666) = 4
